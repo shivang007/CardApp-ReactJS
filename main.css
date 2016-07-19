@@ -1,0 +1,28 @@
+.cards{
+    box-sizing: border-box;
+    width: 200px;
+    float: left;
+    background-image: url(../card200264.jpg);
+    text-align: center;
+    margin: 0px 10px 15px;
+    cursor: pointer;
+    height: 264px;
+    font-size: 60px;
+    padding-top: 80px;
+
+}
+.app-container{
+	margin: 10px;
+    padding: 25px;
+    background: #000000;
+    height: 100%;
+}
+html{
+    background-color: black;
+}
+.scoreDiv{
+    
+    color: #957a4f;
+    font-size: 25px;
+    
+}
