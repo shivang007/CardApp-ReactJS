@@ -201,9 +201,14 @@ class App extends React.Component{
 
 	render(){
 		return(
-				<div className= "app-container">
-				<div className = "scoreDiv">Your Score: <span id = "scoreSpan"></span></div>
+				
+				<div>
+				<div className= "container-fluid">Your Score: <span id = "scoreSpan"></span></div>
+				<div className= "container">
+				<div className= "app-container class = row">
 					{this.state.data.map((card, i) => <Cards key = {i} data = {card} onClick= {this.state.onSelectCards}/>)} 
+				</div>
+				</div>
 				</div>
 			);
 	}
